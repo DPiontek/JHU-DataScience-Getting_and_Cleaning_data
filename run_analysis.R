@@ -32,5 +32,5 @@ D_ <- D[,which(colnames(D) %in% c("Subject ID", "Activity", grep("mean\\(\\)|std
 T_ <- D_ %>% group_by(Activity, `Subject ID`) %>% summarise_all(mean)
 names(T_) <- gsub("^t|^f","Mean of ", names(T_))
 
-write.csv(T_, "activity means.csv", row.names=FALSE)
+write.table(T_, "activity means.csv", row.names=FALSE)
 write.table(data.frame(names(T_)),"names.csv", row.names=FALSE, col.names=FALSE)
