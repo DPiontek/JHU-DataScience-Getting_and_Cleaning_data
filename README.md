@@ -1,10 +1,12 @@
 # Getting and Cleaning Data - Data Science in R - JHU - Coursera
 https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project  
+
+# Task Description
 Peer graded assignement for the "Getting and Cleaning Data" course in the "Data Science in R" specialisation.
 
-## Instructions
+### Instructions
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
-### Review criteria
+#### Review criteria
 
 1. The submitted data set is tidy.
 2. The Github repo contains the required scripts.
@@ -12,7 +14,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 4. The README that explains the analysis files is clear and understandable.
 5. The work submitted for this project is the work of the student who submitted it.
 
-### Getting and Cleaning Data Course Project
+#### Getting and Cleaning Data Course Project
 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 
 1. a tidy data set as described below, 
@@ -37,3 +39,10 @@ You should create one R script called run_analysis.R that does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Good luck!
+
+# Submission 
+
+* Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+* Extract it in your working directory.
+* Run run_analysis.R.
+* Results can be found in "names.csv" and "activity means.csv"
