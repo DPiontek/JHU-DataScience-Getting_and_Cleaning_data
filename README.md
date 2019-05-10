@@ -2,6 +2,9 @@
 https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project  
 # Submission 
 
+Data description and data preparation steps can be found in CodeBook.md
+
+I order to run the analysis follow these steps:
 * Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 * Extract it in your working directory.
 * Run run_analysis.R.
